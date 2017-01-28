@@ -1,3 +1,14 @@
-body{
-   background-color: #950A08;
+    body {
+    background-color: #950A08;
 }
+
+.red-box {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    padding: 10px 10px 10px 10px .blue-box {
+        width: 200px;
+        height: 200px;
+        background-color: blue;
+        padding: 10px 10px 10px 10px
+    }
