@@ -1,14 +1,25 @@
     body {
     background-color: #950A08;
-}
+  }
+.container{
+    width: 800px;
+    border: 1px solid #000000;
+    padding: 20px;
+    margin: 0 auto 0 auto;
+  }
+
 
 .red-box {
     width: 200px;
     height: 200px;
     background-color: red;
-    padding: 10px 10px 10px 10px .blue-box {
-        width: 200px;
-        height: 200px;
-        background-color: blue;
-        padding: 10px 10px 10px 10px
-    }
+    padding: 10px ;
+  }
+
+.blue-box {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    padding: 10px;
+    margin: 10px 0 0 0;
+  }
