@@ -1,25 +1,58 @@
     body {
-    background-color: #950A08;
-  }
-.container{
-    width: 800px;
-    border: 1px solid #000000;
-    padding: 20px;
-    margin: 0 auto 0 auto;
-  }
+        background-color: #23525f;
+    }
 
+    .container {
+        width: 800px;
+        border: 1px solid #000000;
+        padding: 20px;
+        margin: 0 auto 0 auto;
+    }
 
-.red-box {
-    width: 200px;
-    height: 200px;
-    background-color: red;
-    padding: 10px ;
-  }
+    header {
+        background-color: red;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 50px;
+        color: #ffffff;
+        text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.2)
+    }
+    /* cool effect for h1 font*/
 
-.blue-box {
-    width: 200px;
-    height: 200px;
-    background-color: blue;
-    padding: 10px;
-    margin: 10px 0 0 0;
-  }
+    .jump span {
+        display: inline-block;
+        transition: transform 0.3s;
+        cursor: url('http://csscursor.info/source/santahand.png'), default;
+    }
+
+    .jump span:hover {
+        transform: translateY(-20px) rotate(20deg) scale(3);
+    }
+
+    h1, h2 {}
+
+    .red-box {
+        width: 50%;
+        /*height: 200px;*/
+        background-color: #7F1934;
+        /*padding: 10px ;*/
+        text-align: center;
+        float: left;
+    }
+
+    .blue-box {
+        width: 50%;
+        /*height: 200px;*/
+        background-color: blue;
+        /*padding: 10px;*/
+        margin: 0 0 0 0;
+        text-align: center;
+        float: right;
+    }
+
+    footer {
+        border-top: 1px solid #000000;
+        clear: both;
+    }
